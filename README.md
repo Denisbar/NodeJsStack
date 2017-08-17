@@ -21,3 +21,7 @@ Bootstrap,
 npm,
 MySQL,
 phpmyadmin,
+
+DEMO
+
+![peek 2017-08-17 14-46](https://user-images.githubusercontent.com/7074063/29411112-22b81fa6-835c-11e7-9d8e-ec97110d076a.gif)
