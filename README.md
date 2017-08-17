@@ -11,10 +11,10 @@ NodeJs application OverStackFlow with Express.js
 6. npm start
 
 #Using technology:
-NodeJs
-Express.js
-Handlebars.js
-Bootstrap
-npm
+NodeJs,
+Express.js,
+Handlebars.js,
+Bootstrap,
+npm,
 MySQL,
-phpmyadmin
+phpmyadmin,
