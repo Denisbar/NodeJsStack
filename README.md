@@ -9,6 +9,8 @@ NodeJs application OverStackFlow with Express.js
 4. npm install
 5. In the root project derectory open db.js file and edit your database configurations.
 6. npm start
+Project will run on PORT http://localhost:3001/
+If you want to change port for some reason, please open /stack/bin/www and change port number.
 
 #Using technology:
 NodeJs,
