@@ -12,7 +12,7 @@ router.post('/is-answered/:id', function(req, res, next) {
     db.query("UPDATE Questions SET is_answered = '1' WHERE question_id = '"+id+"'", function(err, rows){
         if (err) {
             console.log("Error inserting : %s ", err);
-        }else {
+        } else {
             res.redirect('/list-page');
         }
     });

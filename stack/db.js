@@ -1,9 +1,9 @@
 var mysql = require('mysql');
 var connection = mysql.createConnection({
-    host     : 'us-cdbr-iron-east-05.cleardb.net',
-    user     : 'bcb1b298150b3e',
-    password : '2308421a', // Please change to your local db password
-    database : 'heroku_d3747e56b77da10' // DB name
+    host     : 'localhost',
+    user     : 'root',
+    password : '8169x5it',
+    database : 'testDB'
 });
 
 connection.connect(function(err) {
@@ -11,5 +11,3 @@ connection.connect(function(err) {
 });
 
 module.exports = connection;
-
-//comment

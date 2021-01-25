@@ -15,9 +15,9 @@ router.post('/foo', function(req, res, next) {
         if (err) {
             console.log("Error inserting : %s ", err);
         }
-        if(err){
+        if (err) {
             res.redirect('/error');
-        }else {
+        } else {
             sess.username = req.body.username;
             sess.userId = rows.insertId;
             console.log(rows);

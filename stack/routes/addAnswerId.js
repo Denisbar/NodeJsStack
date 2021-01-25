@@ -18,7 +18,7 @@ router.post('/add-answer/:id', function(req, res, next) {
     db.query(sql, item, function(err, rows){
         if (err) {
             console.log("Error inserting : %s ", err);
-        }else {
+        } else {
             res.redirect('/list-page');
         }
     });
