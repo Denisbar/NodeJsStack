@@ -1,6 +1,3 @@
-/**
- * Created by denis-barabash on 17.08.17.
- */
 var express = require('express');
 var router = express.Router();
 var mysql = require('mysql');
